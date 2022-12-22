@@ -152,6 +152,7 @@ footer {
     position: relative; /* This sets the text relative to it's normal positioning, allowing us to use the animation below */
     -webkit-animation: moveNavText 5.75s; /* Animation for Safari 4.0 -8.0 */
     animation: moveNavText 5.75s; /* Applies the moveNavText animation for 5.75s */
+    font-family: 'Lucida Bright', Verdana;
 }
 
 /* moveNavText animation effect for moving the navbar text from above the view to the navbar */

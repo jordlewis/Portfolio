@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>J. Lewis Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    </head>
+
+    <!-- Body -->
+    <body class="Background">
+
+        <!-- Navbar -->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!-- Breaks inserted to add space between navbar and the first heading -->
+        <br>
+        <br>
+
+        <!-- Background video -->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/video/code.mp4" type="video/mp4">
+                <!-- Display message if video fails to run -->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!-- Video text -->
+        <div class="Video_Text">
+            <h1 class="white-text">J. Lewis Development</h1>
+            <strong>
+                <p class="center">
+                    <q>Computer programming is an art, because it applies accumlulated knowledge to the world,
+                    <br>because it requires skill and ingenuity, and especially because it produces objects of beauty.
+                    <br>A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better.
+                    </q>
+                    <br> - Donald Knuth
+                    <br>
+                    <br> My name is Jordyn Lewis and welcome to my portfolio.
+                    <br>
+                    <br> Thank you for your time! 
+                </p>
+            </strong>
+        </div>
+
+        <!-- About section -->
+        <div class="Row" id="About">
+            <!-- Left column -->
+            <div class="Column_2">
+                <img src="images/code-img.png" alt="Replace with your own image and description">
+            </div>
+            <!-- Right column -->
+            <div class="Column_1">
+                <h1 class="titles">About</h1>
+                <p>
+                    I am a software developer who loves to code! I enjoy spending time with my wife and dogs.
+                    <br>
+                    <br> I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, Javascript, SQL, C#, and more.
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!-- GitHub section -->
+        <div class="Row" id="GitHub">
+            <!-- Left column -->
+            <div class="Column_1">
+                <h1 class="titles">GitHub</h1>
+                <p class="git-tile">
+                    <br>
+                    <a href="https://github.com/jordlewis" target="_blank">jordlewis</a>
+                    <br>
+                    <br>
+                    <br>
+                    Check out my coding projects on GitHub by clicking my profile name above! 
+                </p>
+            </div>
+            <!-- Right column -->
+            <div class="Column_2">
+                <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!-- Contact section -->
+        <div class="Row" id="Contact">
+            <!-- Contact image, left column -->
+            <div class="Column_2 Column_tall">
+                <img src="images/custom.png" alt="Email Cube">
+            </div>
+            <!-- Contact form, right column -->
+            <div class="Column_1 Column_tall">
+                <h1 class="titles">Reach me!</h1>
+                <!-- This specifies where and how to send the form data; we are leaving it blank -->
+                <form action="https://formspree.io/f/meqdybre" method="POST"> 
+                <label>Name:</label>
+                    <input type="text" placeholder="First and Last Name">
+                <label>Email:</label>
+                    <input type="text" id="Email" name="Email" placeholder="Email Address">
+                <label>Message:</label>
+                    <input type="text" id="Message" name="Message" placeholder="What message would you like to send?">
+                    <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer section -->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>

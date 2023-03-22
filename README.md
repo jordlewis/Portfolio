@@ -16,7 +16,7 @@ You may view the website here: www.jlewisdevelopment.com
 
 *CSS* - Used to style all of the HTML code and make it more viusally appealing to the eye. 
 
-**JavaScript** - Used to add more functionality to the site.
+*JavaScript* - Used to add more functionality to the site.
 
 <h3>AUTHOR:</h3>
 
